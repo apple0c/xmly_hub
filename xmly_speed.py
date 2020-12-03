@@ -15,10 +15,10 @@ import re
 
 ###################################################
 # 对应方案2: 下载到本地,需要此处填写
-cookies1 = ""
-cookies2 = ""
+cookies1 = "1&_device=android&3ad40e23-96b9-3edb-863b-8943ccc6ad4f&1.8.42;1&_token=270771209&F9C0EB40140C545E45B13987CFC89E4DED789DD9E4EFA4AA6C0C58DC5178AEBAF56596D7FBBC98Md396934FC1F796B_;channel=and-d3;impl=com.ximalaya.ting.lite;osversion=28;device_model=ALP-AL00;XUM=oFfjBkqF;XIM=316aa65a5c617;c-oper=%E6%9C%AA%E7%9F%A5;net-mode=WIFI;res=1080%2C1920;NSUP=;AID=7s1C9ePos3w=;manufacturer=HUAWEI;XD=guTpgSmxWLcZQMoCU0QSl4fiPMD+fc8j0S+L/ddAYWLXxQcu/0b0jO6m56sVrQSzEpamOKlwvlThZsJCQfAQrGAHFpblxSsi4PRVSQDyaOVmqjM1cKTmzNhyLjHlhyEMZTndSl4wvLsJGtbr49OrLwMccI0ShfpDSRpgFI9os7k=;umid=aib4045028e7f4d1ec6cf1aa887f24d72c;xm_grade=1000;oaid=51f4bf59-eb7f-25c9-fd5b-aeefffdf9203;appVersion=1.8.42.3;x-abtest-bucketIds=204900;domain=.ximalaya.com;path=/;"
+cookies2 = "1&_device=android&e410060d-3200-3ca9-afce-6f54fb2465d9&1.8.42;1&_token=272889651&A55ADA60340CB1A64B3720DFE8F81A1B78381E2E25FD9841B261990CCD74D12E96DD57E33C5A110M1d0ff4d42A6A881_;channel=and-d5;impl=com.ximalaya.ting.lite;osversion=24;device_model=MEIZU+M6;XUM=LFcxqn4s;XIM=314b28d4c910f;c-oper=%E6%9C%AA%E7%9F%A5;net-mode=WIFI;res=720%2C1280;NSUP=;AID=2laL8RWB4GI=;manufacturer=Meizu;XD=IATRgLEJN8mZttGt3ko597Uxa0J5f+w6f8AhWRinSAK6/ap6WV9Jx7a6wT3QZHxtw7TYI6dlr92qBNXA96NLyIlBIJoJDrum1I8fCpIVqmfA1oti4Z3+5WEkL9dAc5S9beHwoB2tXnGuenWuqOlCszBNFlN+UhrZwG7IdnVqR+E=;umid=5bd78ab99355092b93a87345c8e67d8;xm_grade=1000;oaid=c3627c6d3977948dcadcc35f0d419ed0;appVersion=1.8.42.3;x-abtest-bucketIds=204900;domain=.ximalaya.com;path=/;"
 
-cookiesList = [cookies1, ]   # 多账号准备
+cookiesList = [cookies1,cookies2 ]   # 多账号准备
 
 # 通知服务
 BARK = ''                   # bark服务,自行搜索; secrets可填;形如jfjqxDx3xxxxxxxxSaK的字符串
